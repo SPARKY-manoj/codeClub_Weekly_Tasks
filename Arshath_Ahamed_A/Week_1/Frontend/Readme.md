@@ -1,2 +1,2 @@
-### The output of the Code is is shown as below..
+### The output of the Code is shown as below..
 ![Image](./output.png)
