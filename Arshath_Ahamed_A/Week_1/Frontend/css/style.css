@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*
+{
+    padding : 0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:5px solid dodgerblue;
+}
+.container
+{
+    min-width: 350px;
+    padding:2.75rem 2.5rem;
+    border-radius: 2rem;
+    color: #fff;
+    border:2px solid rgba(255, 255, 255, 0.415);
+    box-shadow: 0 0 20px rgba(174, 134, 134, 0.6);
+}
+.container h2
+{
+    color:dodgerblue;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+}
+.container .input-box
+{
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container input
+{
+    background: transparent;
+    outline: none;
+    width: 100%;
+    padding : 0.6rem;
+    padding-left:1.5rem;
+    color:#070505;
+    border:2px solid rgb(152, 142, 142);
+    border-radius: 20px;
+}
+.container .btn {
+    text-align: center;
+}
+button{
+    padding: 10px 30px;
+    border-radius: 1rem;
+    color: blue;
+    border-color: blue;
+}
